@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 
+
 # Function to check IP details
 def check_ip(ip, api_key):
     url = 'https://api.abuseipdb.com/api/v2/check'
